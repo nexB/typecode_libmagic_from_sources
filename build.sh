@@ -6,9 +6,9 @@
 set -e
 cd lib-src/
 rm -rf file-5.39/
-tar -xf file-5.39.tar.gz 
+tar -xf file-5.39.tar.gz
 cd file-5.39/
-./configure 
+./configure
 make
-cp src/.libs/libmagic.so.1.0.0  ../../src/typecode_libmagic/lib/libmagic.so
-cp magic/magic.mgc ../../src/typecode_libmagic/data/
+cp src/.libs/libmagic.so.1.0.0  ../../src/typecode_libmagic_from_sources/lib/libmagic.so
+cp magic/magic.mgc ../../src/typecode_libmagic_from_sources/data/

@@ -77,7 +77,7 @@ setup(
     ],
     entry_points={
         'scancode_location_provider': [
-            'typecode_libmagic = typecode_libmagic:LibmagicPaths',
+            'typecode_libmagic = typecode_libmagic_from_sources:LibmagicPaths',
         ],
     },
     cmdclass={'build': BuildLibMagic, 'develop': DevelopLibMagic}
