@@ -72,6 +72,9 @@ setup(
     keywords=[
         'open source', 'typecode', 'libmagic'
     ],
+    install_requires=[
+        'plugincode',
+    ],
     entry_points={
         'scancode_location_provider': [
             'typecode_libmagic = typecode_libmagic:LibmagicPaths',
