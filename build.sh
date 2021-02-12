@@ -12,3 +12,5 @@ cd file-5.39/
 make
 cp src/.libs/libmagic.so.1.0.0  ../../src/typecode_libmagic_from_sources/lib/libmagic.so
 cp magic/magic.mgc ../../src/typecode_libmagic_from_sources/data/
+cd ..
+rm -rf file-5.39/

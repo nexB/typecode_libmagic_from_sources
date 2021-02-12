@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-from __future__ import absolute_import
-from __future__ import print_function
-
 from glob import glob
 from os.path import basename
 from os.path import join
@@ -47,10 +44,10 @@ class DevelopLibMagic(setuptools_develop):
 
 setup(
     name='typecode_libmagic_from_sources',
-    version='5.39.1.1',
+    version='5.39.210212',
     license=(
-        'bsd-simplified-darwin AND bsd-simplified AND public-domain AND '
-        'bsd-new AND isc AND (bsd-new OR gpl-1.0-plus) AND bsd-original'
+        'bsd-simplified-darwin AND (bsd-simplified AND public-domain AND '
+        'bsd-new AND isc AND (bsd-new OR gpl-1.0-plus) AND bsd-original)'
     ),
     description=desc,
     long_description=desc,
